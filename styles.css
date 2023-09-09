@@ -6,7 +6,30 @@
     background-color: oldlace;
   }
 
-
   .body-container{
-    
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .body-container h1{
+    align-self: self-start;
+    color: red;
+    margin-bottom: 3px;
+  }
+
+  .text-input-container textarea{
+    height: 300px;
+    width: 325px;
+    resize: none;
+    overflow:auto;
+    overflow-y: scroll;
+    font-size: 24px;
+    padding: 11px;
+    text-align: left;
+    border: 0.5px solid black;
   }
